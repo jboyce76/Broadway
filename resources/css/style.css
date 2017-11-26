@@ -6,11 +6,13 @@ body {
 }
 
 /* main header settings */
-#home {
+.header {
   font-size: 70px;
   font-weight: bold;
   color: white;
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
+  background-position: center;
 }
 
 /* header two settings */
@@ -33,15 +35,27 @@ p {
 /* set background image for "Designed in New York" headinng */
 #ny {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-position: center;
   color: white;
 }
 
+/* modify settings for footer section */
 .footer {
   background-color: dimgray;
   color: white;
   text-align: left;
 }
 
+/* made the text "© Broadway 2017" smaller than rest of footer */
 #copyright {
   font-size: 11px;
+}
+
+/* added a:link and a:visited to make the links appear white all the time */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }

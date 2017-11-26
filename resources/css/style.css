@@ -1,0 +1,40 @@
+/* general page settings */
+
+body {
+  font-family: helvetica;
+  background-color: white;
+  text-align: center;
+}
+
+/* main header settings */
+
+#home {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+/* header two settings */
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* header three settings */
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* paragraph settings */
+
+p {
+  font-size: 14px;
+}
+
+#ny {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
